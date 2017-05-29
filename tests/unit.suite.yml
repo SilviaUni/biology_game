@@ -1,0 +1,8 @@
+class_name: UnitTester
+modules:
+    enabled:
+        - Symfony:
+            var_path: 'var'
+            app_path: 'app'
+        - Asserts
+        - \Helper\Unit
